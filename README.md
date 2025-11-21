@@ -4,7 +4,7 @@
 
 -   **Description**
 
-Based on some social media comments, we want to predict people's mental health state.
+Based on some social media comments (particularly Reddit posts), this project presents a POC to predict people's mental health state.
 
 Please, refer to the `Introduction` part of the notebook `cleaning_notebooks/clean_raw_data.ipnyb` to have a full understanding of where the data came from and kind of biases that could exist in this analysis.
 
@@ -146,3 +146,4 @@ http://localhost:80
 
 
 This project is registered under the terms of the MIT license. For any further details, consult the LICENSE file.
+
