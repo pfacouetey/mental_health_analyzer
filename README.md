@@ -32,7 +32,6 @@ DSTI_DEEPLEARNING_PROJECT/
 │  ├─ base_model/
 │  │  ├─ __init__.py
 │  │  ├─ train_a_catboost_model.ipynb
-├─ .gitattributes
 ├─ .gitignore
 ├─ docker-compose.test.yml
 ├─ How-to-test-the-app.txt
@@ -144,5 +143,6 @@ http://localhost:80
 ```
 
 ## **Licence**
+
 
 This project is registered under the terms of the MIT license. For any further details, consult the LICENSE file.
