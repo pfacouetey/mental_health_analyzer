@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    image: bradesteve/mental-health-backend:latest
+    container_name: mental-health-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: bradesteve/mental-health-frontend:latest
+    container_name: mental-health-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"

@@ -1,0 +1,13 @@
+# Exclude all data folder since its files are too big
+data/*
+
+# Do not import your secrets on github
+.env
+
+*.csv
+*.feather
+*.txt
+*.npy
+
+# Exclude all info on gradient boosting training folder : catboost/*
+modeling_notebooks/base_model/catboost_info/*
