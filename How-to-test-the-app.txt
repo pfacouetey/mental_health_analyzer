@@ -1,0 +1,18 @@
+Steps to launch and test the app !
+ 
+Install Docker Desktop from : https://docs.docker.com/desktop/setup/install/windows-install/
+ 
+The application is composed of two docker images: backend and frontend.
+backend runs on port number 8000 and frontend runs on port number 80.
+ 
+1 - Create a folder and place the file `docker-compose.test.yml` in it.
+
+2 - Open a terminal in that folder and run the following command: 
+`docker compose -f .\docker-compose.test.yml -p mental-health up`
+
+Wait until you see the backend server running on port number 8000
+
+3 - Launch the app in localhost :
+ 
+http://localhost:80
+ 
